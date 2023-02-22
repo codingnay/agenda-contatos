@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Agenda de Contatos by Nay</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div>
+                <label for="name">Nome:&nbsp;</label>
+                <input data-index="new" type="text" name="name" id="name" placeholder="digite o nome" autocomplete="off"/>
+            </div>
+            <div>
+                <label for="email">Email:&nbsp;</label>
+                <input type="email" name="email" id="email" placeholder="digite seu email" autocomplete="off"/>
+            </div>
+            <div>
+                <label for="tel">Telefone:&nbsp;</label>
+                <input type="tel" name="tel" id="tel" placeholder="digite o telefone" autocomplete="off"/>
+            </div>
+            <input id="salvar" type="button" value="Salvar"/>
+        </form>
+        <div id="agenda">
+            
+        </div>
+    </div>
+</body>
+</html>
